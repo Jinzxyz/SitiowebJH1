@@ -1,0 +1,107 @@
+body{   
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.menu {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 80px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.menu ul li {
+    padding: 20px 20px 20px 20px ;
+}
+.menu ul li a{
+    color: rgb(21, 0, 255);
+}
+.menu ul li a:hover{
+    color: blanchedalmond;
+}
+
+.contenedor{
+    max-width: 100%;
+    padding: 80px 30px;
+}
+.center {
+    text-align: center;
+}
+
+.contenedor h2{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contenedor p{
+
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.servicios .col {
+    padding: 3%;
+    border: 1px solid color silver;
+    border-radius: 5px;
+}
+.icon {
+    font-size: 90px;
+    color: darkblue;
+
+}
+.icon:hover{
+    color: black;
+
+}
+
+
+h1{
+    color: blue;
+}
+.h1{
+    color: brown;
+}
+
+.list {
+
+    list-style-type: none;
+}
+
+.list-orden{
+    list-style-type: lower-latin;
+}
+.table-dark{
+    background-color: rgb(157, 152, 153);
+    color: gray;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tr {
+    background-color: rgb(16, 20, 140);
+}
+
+.tr2 {
+ background-color: rgb(155, 33, 33);
+}
+.img-responsive{
+    width: 150px;
+}
